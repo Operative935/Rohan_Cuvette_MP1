@@ -21,6 +21,11 @@ body {
     left: 1200px;
 }
 
+#NavBar {
+     height: 100px;
+     width: auto;
+}
+
 #SIcons {
     position: sticky;
     top: 30px;
