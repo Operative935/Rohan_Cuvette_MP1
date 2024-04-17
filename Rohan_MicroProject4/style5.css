@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(140, 196, 97, 1);
+    width: max-content;
+}
+
+#Rules {
+    background-color: rgba(140, 196, 97, 1);
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#PopOver {
+    display: none;
+    border: 5px solid white;
+    border-radius: 12px;
+    background-color: rgba(0, 68, 41, 1);
+    width: 340px;
+    height: 290px;
+    position: fixed;
+    right: 5%;
+    bottom: 12%;
+}
+
+#Close {
+    position: absolute;
+    bottom: 95%;
+    left: 95%;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius: 100px;
+    border: 5px solid white;
+    width: 40px;
+    height: 40px;
+}
+
+#Close1 {
+    position: absolute;
+    bottom: 19%;
+    left: 19%;
+    width: 20px;
+    height: 20px;
+}
+
+.GameRules {
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 7vw;
+    margin-top: 10px;
+}
+
+.RulesList {
+    padding-left: 30px;
+}
+
+.RulesList p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.RulesList li {
+    color: yellow;
+    list-style-type: square;
+    margin-left: 0px;
+}
+
+#cup {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 43vw;
+    bottom: 47vh;
+}
+
+#stars {
+    width: 495px;
+    height: 295px;
+    position: fixed;
+    left: 32vw;
+    bottom: 47vh;
+}
+
+.hurray {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    font-weight: 535;
+    position: absolute;
+    bottom: 27vh;
+    left: 35vw;
+}
+
+.PC {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 535;
+    position: absolute;
+    bottom: 20vh;
+    left: 35.5vw;
+}
+
+.PlayAgain {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.733);
+    border-radius: 10px;
+    width: 175px;
+    position: absolute;
+    left: 43.7vw;
+    bottom: 9vh;
+    border: 2px solid white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
